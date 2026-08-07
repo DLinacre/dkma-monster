@@ -221,7 +221,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 :root{--dim:#8f8f9c}
 """
 
-BASE_URL = "https://lin4cre.github.io/dkma-monster"
+BASE_URL = "https://dlinacre.github.io/dkma-monster"
 DEFAULT_DESC = ("DKMA Monster - stop aggressive OEM battery managers from killing "
                 "your Android apps. Per-brand keep-alive guides plus automation tools.")
 
@@ -232,8 +232,8 @@ SOFTWARE_APP_LD = {
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "Android, Windows, macOS, Linux",
     "description": DEFAULT_DESC,
-    "url": "https://lin4cre.github.io/dkma-monster/",
-    "codeRepository": "https://github.com/LIN4CRE/dkma-monster",
+    "url": "https://dlinacre.github.io/dkma-monster/",
+    "codeRepository": "https://github.com/DLinacre/dkma-monster",
     "license": "https://opensource.org/licenses/MIT",
     "softwareVersion": "1.0.0",
     "author": {"@type": "Person", "name": "David Linacre", "url": "https://www.linacre.site/"},
@@ -294,7 +294,7 @@ def page(title, body, rel="", desc=DEFAULT_DESC, canonical=None, jsonld=None):
   <nav aria-label="Primary" style="display:contents">
     <span class="logo" aria-hidden="true">DK</span>
     <h1><a href="{rel}index.html">DKMA Monster</a></h1>
-    <a class="starlink" href="https://github.com/LIN4CRE/dkma-monster" rel="noopener">{star} Star</a>
+    <a class="starlink" href="https://github.com/DLinacre/dkma-monster" rel="noopener">{star} Star</a>
   </nav>
 </header>
 <hr class="pulse">
@@ -335,7 +335,7 @@ def build_index(reg):
         automate it all with the DKMA Monster CLI, desktop GUI, or root/Magisk tools.</p>
         <div class="term"><span class="p">$</span> dkma <span class="c"># detect \u00b7 grant \u00b7 guide \u00b7 verify</span></div>
         <div class="cta-row">
-          <a class="btn-primary" href="https://github.com/LIN4CRE/dkma-monster#quick-start">Get the installer \u2192</a>
+          <a class="btn-primary" href="https://github.com/DLinacre/dkma-monster#quick-start">Get the installer \u2192</a>
           <a class="btn-ghost" href="#grid">Find your brand \u2193</a>
         </div>
       </div>
@@ -381,7 +381,7 @@ def build_index(reg):
       <div class="share">Found this useful?
         <a rel="noopener" href="https://twitter.com/intent/tweet?text=Stop%20your%20phone%20killing%20apps%20with%20DKMA%20Monster&url={BASE_URL}/">Share on X</a> \u00b7
         <a rel="noopener" href="https://www.reddit.com/submit?url={BASE_URL}/&title=DKMA%20Monster">Reddit</a> \u00b7
-        <a rel="noopener" href="https://github.com/LIN4CRE/dkma-monster">\u2b50 Star on GitHub</a>
+        <a rel="noopener" href="https://github.com/DLinacre/dkma-monster">\u2b50 Star on GitHub</a>
       </div>
     </div>
     <script>
@@ -487,7 +487,7 @@ def build_oem(reg, o):
       <div class="share">Did this fix it?
         <a rel="noopener" href="https://twitter.com/intent/tweet?text=Stopped%20my%20{esc(o['label'])}%20phone%20killing%20apps%20with%20DKMA%20Monster&url={BASE_URL}/oem/{esc(o['id'])}.html">Share on X</a> \u00b7
         <a rel="noopener" href="https://www.reddit.com/submit?url={BASE_URL}/oem/{esc(o['id'])}.html&title=Keep%20apps%20alive%20on%20{esc(o['label'])}">Reddit</a> \u00b7
-        <a rel="noopener" href="https://github.com/LIN4CRE/dkma-monster">\u2b50 Star</a>
+        <a rel="noopener" href="https://github.com/DLinacre/dkma-monster">\u2b50 Star</a>
       </div>
       <a class="backtop" href="#main">\u2191 Back to top</a>
     </div>"""

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lin4cre.github.io/dkma-monster/sitemap.xml
+Sitemap: https://dlinacre.github.io/dkma-monster/sitemap.xml

@@ -21,11 +21,11 @@ Magisk installers, an Android library, and a Kotlin Multiplatform module.
 
 <br>
 
-[![Stars](https://img.shields.io/github/stars/LIN4CRE/dkma-monster?style=social)](https://github.com/LIN4CRE/dkma-monster/stargazers)
-[![Live guide](https://img.shields.io/badge/live%20guide-online-3ddc84)](https://lin4cre.github.io/dkma-monster/)
-[![Latest release](https://img.shields.io/github/v/release/LIN4CRE/dkma-monster)](https://github.com/LIN4CRE/dkma-monster/releases)
+[![Stars](https://img.shields.io/github/stars/LIN4CRE/dkma-monster?style=social)](https://github.com/DLinacre/dkma-monster/stargazers)
+[![Live guide](https://img.shields.io/badge/live%20guide-online-3ddc84)](https://dlinacre.github.io/dkma-monster/)
+[![Latest release](https://img.shields.io/github/v/release/LIN4CRE/dkma-monster)](https://github.com/DLinacre/dkma-monster/releases)
 
-**⭐ If DKMA Monster saved your background app, please [star the repo](https://github.com/LIN4CRE/dkma-monster) — it helps others find it.**
+**⭐ If DKMA Monster saved your background app, please [star the repo](https://github.com/DLinacre/dkma-monster) — it helps others find it.**
 
 <sub>Built by <b>David Linacre</b> · <a href="https://www.linacre.site/">linacre.site</a></sub>
 

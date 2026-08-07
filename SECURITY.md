@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 Please report security issues privately to **david@linacre.site** or via a
-[GitHub security advisory](https://github.com/LIN4CRE/dkma-monster/security/advisories/new).
+[GitHub security advisory](https://github.com/DLinacre/dkma-monster/security/advisories/new).
 Do **not** open a public issue for undisclosed vulnerabilities.
 
 We aim to acknowledge reports within 72 hours.
